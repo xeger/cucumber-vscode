@@ -99,6 +99,12 @@
     "publish": "vsce publish",
     "upgrade": "npm-check-updates --upgrade"
   },
+  "overrides": {
+    "@cucumber/gherkin-utils": "npm:@xeger/cucumber-gherkin-utils@8.0.2",
+    "@cucumber/language-server": {
+      "@cucumber/gherkin-utils": "npm:@xeger/cucumber-gherkin-utils@8.0.2"
+    }
+  },
   "dependencies": {
     "@cucumber/language-server": "1.4.0",
     "vscode-languageclient": "8.1.0"

@@ -1,9 +1,9 @@
 {
-  "name": "cucumber-official",
-  "displayName": "Cucumber",
-  "description": "Cucumber for Visual Studio Code",
+  "name": "wildcat-cucumber",
+  "displayName": "Cucumber (Wildcat Fork)",
+  "description": "Cucumber (Wildcat Fork)",
   "version": "1.7.0",
-  "publisher": "CucumberOpen",
+  "publisher": "xeger",
   "engines": {
     "vscode": "^1.72.0"
   },

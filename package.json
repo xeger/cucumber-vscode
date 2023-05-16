@@ -1,9 +1,9 @@
 {
-  "name": "wildcat-cucumber",
-  "displayName": "Cucumber (Wildcat Fork)",
-  "description": "Cucumber (Wildcat Fork)",
+  "name": "xeger-wildcat-cucumber",
+  "displayName": "Cucumber",
+  "description": "Cucumber for Visual Studio Code",
   "version": "1.7.0",
-  "publisher": "xeger",
+  "publisher": "CucumberOpen",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -98,12 +98,6 @@
     "package": "vsce package",
     "publish": "vsce publish",
     "upgrade": "npm-check-updates --upgrade"
-  },
-  "overrides": {
-    "@cucumber/gherkin-utils": "npm:@xeger/cucumber-gherkin-utils@8.0.2",
-    "@cucumber/language-server": {
-      "@cucumber/gherkin-utils": "npm:@xeger/cucumber-gherkin-utils@8.0.2"
-    }
   },
   "dependencies": {
     "@cucumber/language-server": "1.4.0",

@@ -2,10 +2,10 @@
   "name": "cucumber-official",
   "displayName": "Cucumber",
   "description": "Cucumber for Visual Studio Code",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "publisher": "CucumberOpen",
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.76.0"
   },
   "categories": [
     "Programming Languages",
@@ -88,7 +88,7 @@
     "build": "npm run esbuild-extension",
     "compile": "tsc --build",
     "prepare": "npm run copy-wasms",
-    "copy-wasms": "mkdir -p out && cp node_modules/@cucumber/language-service/dist/*.wasm out",
+    "copy-wasms": "mkdir -p out && cp node_modules/@cucumber/language-service/dist/*.wasm out && cp HACK-tree-sitter.js node_modules/web-tree-sitter/tree-sitter.js",
     "pretest": "npm run compile",
     "eslint": "eslint src --ext ts",
     "eslint-fix": "eslint src --ext ts --max-warnings 0 --fix",
